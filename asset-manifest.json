@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/JazminA/static/css/main.e2b96429.css",
-    "main.js": "/JazminA/static/js/main.332a0faa.js",
+    "main.js": "/JazminA/static/js/main.943c923f.js",
     "index.html": "/JazminA/index.html",
     "main.e2b96429.css.map": "/JazminA/static/css/main.e2b96429.css.map",
-    "main.332a0faa.js.map": "/JazminA/static/js/main.332a0faa.js.map"
+    "main.943c923f.js.map": "/JazminA/static/js/main.943c923f.js.map"
   },
   "entrypoints": [
     "static/css/main.e2b96429.css",
-    "static/js/main.332a0faa.js"
+    "static/js/main.943c923f.js"
   ]
 }
