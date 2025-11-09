@@ -17,7 +17,7 @@ function App() {
   ];
 
   return (
-  <BrowserRouter>
+  <BrowserRouter basename='/JazminA'>
     <div className="app">
       <div className='animmated-header'>
             <div className="circle1"></div>
