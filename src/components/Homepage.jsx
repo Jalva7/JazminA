@@ -31,7 +31,7 @@ const Homepage = () => {
               </div>
               
               <div className="about-image">
-                <img src="/JazminA/images/me24.JPEG" alt="Jazmin Alvarado" />
+                <img src="/JazminA/images/me24.png" alt="Jazmin Alvarado" />
               </div>
             </div>
             <div className="scroll-hint">Scroll Down ↓</div>
