@@ -20,7 +20,7 @@ const Homepage = () => {
                 <p>
                   I am still learning how to code and I am passionate about creating 
                   beautiful and functional websites. I want to continuously expand 
-                  my skills in Web Development and UX Design. I am also interested in exploring software engineering.
+                  my skills in web development and UX design. I am also interested in exploring software engineering.
                 </p>
                 <p>
                   Welcome to my digital space where I showcase my journey, 

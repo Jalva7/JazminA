@@ -7,14 +7,14 @@ const Resume = () => {
       { 
         degree: 'Bachelor of Science in Computer Science', 
         institution: 'University of North Georgia', 
-        year: 'Fall 2025',
-        description: 'On my final semester, focusing on my senior project.'
+        year: 'Aug 2022 - Dec 2025',
+        description: 'Done! Relevant coursework includes Data Structures, Web Development, UX/UI, and Software Engineering.'
       },
     ],
     projects: [
       {
         name: 'J.Timer',
-        technologies: 'React, CSS3, JavaScript, HTML5, Spotify API',
+        technologies: 'React, CSS3, JavaScript, HTML5, Spotify API, Render',
         description: 'A customizable timer application that allows users to set work and break intervals to enhance productivity using the Pomodoro technique along with a task list.',
         status: 'Completed'
       },
@@ -87,7 +87,7 @@ const Resume = () => {
   return (
          <div className="page-content active">
           <div className="resume-container">
-            <h2 className="page-title">Experience</h2>
+            <h2 className="page-title">Resume</h2>
             <div className="resume-scroll-hint">Scroll Down ↓</div>
             
             {/* Education Section */}
