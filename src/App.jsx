@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import React, { useState, useCallback } from 'react';
+import React from 'react';
 import './App.css';
 import HomePage from './components/Homepage';
 import Skills from './components/Skills';

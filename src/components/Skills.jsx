@@ -1,9 +1,7 @@
-import { useNavigate } from 'react-router-dom';
 import '../App.css';
 
 
 const Skills = () => {
-    const navigate = useNavigate();
     const skillsData = {
     technical: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Python', 'Git', 'VS Code'],
     soft: ['Attention to Detail', 'Problem Solving', 'Teamwork', 'Adaptability', 'Communication'],

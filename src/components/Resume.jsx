@@ -1,9 +1,7 @@
-import { useNavigate } from 'react-router-dom';
 import '../App.css';
 
 
 const Resume = () => {
-    const navigate = useNavigate();
     const resumeData = {
     education: [
       { 
