@@ -16,8 +16,8 @@ return (
               <h4>January 30, 2026</h4>
               <p>I have earned my Bachelor's degree in Computer Science last December (2025). Right now, I am actively looking for entry level opportunities in web development
                 and software engineering.</p>
-
-              <p>Currently, I'm working on setting up my blog platform. I have finished my senior project and I'll be adding it on the <b>Projects</b> tab. I have some ideas for posts, but it's still a work in progress. In the meantime, feel free to check out <a href="https://github.com/Jalva7" target="_blank" rel="noopener noreferrer">my GitHub</a> for some
+              <p>Currently, I'm working on setting up my blog platform. I have finished my senior project and I'll be adding it on the <b>Projects</b> tab. 
+              I have some ideas for posts, but it's still a work in progress. In the meantime, feel free to check out <a href="https://github.com/Jalva7" target="_blank" rel="noopener noreferrer">my GitHub</a> for some
               of my projects and code snippets.</p>
             </div>
 
