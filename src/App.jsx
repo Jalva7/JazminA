@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom';
-import React, { useState, useCallback } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import HomePage from './components/Homepage';
 import Skills from './components/Skills';
@@ -8,6 +8,8 @@ import Blog from './components/Blog';
 import Projects from './components/Projects';
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const navItems = [
     { id: 'homepage', label: 'Home', ariaLabel: 'Navigate to Home Page' },
     { id: 'skills', label: 'Skills', ariaLabel: 'Navigate to Skills Page' },
@@ -15,6 +17,18 @@ function App() {
     { id: 'projects', label: 'Projects', ariaLabel: 'Navigate to Projects Page' },
     { id: 'blog', label: 'Blog', ariaLabel: 'Navigate to Blog Page' },
   ];
+
+  // Close menu when clicking outside or on a link
+  useEffect(() => {
+    const handleEscape = (e) => {
+      if (e.key === 'Escape') setMenuOpen(false);
+    };
+    document.addEventListener('keydown', handleEscape);
+    return () => document.removeEventListener('keydown', handleEscape);
+  }, []);
+
+  const closeMenu = () => setMenuOpen(false);
+  const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
   <BrowserRouter basename='/JazminA'>
@@ -31,7 +45,17 @@ function App() {
           <div className="nav-title">
             <h1>JazminA</h1>
           </div>
-          <nav className="nav-container" role='navigation'>
+          
+          <button 
+            className="menu-toggle" 
+            onClick={toggleMenu}
+            aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+            aria-expanded={menuOpen}
+          >
+            {menuOpen ? '✕' : '☰'}
+          </button>
+          
+          <nav className={`nav-container ${menuOpen ? 'open' : ''}`} role='navigation'>
             <ul className="onepage-nav">
               {navItems.map((item) => (
                 <li key={item.id}>
@@ -39,6 +63,7 @@ function App() {
                     to={item.id === 'homepage' ? '/' : `/${item.id}`} 
                     className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}
                     aria-label={item.ariaLabel}
+                    onClick={closeMenu}
                   >
                     {item.label}
                   </NavLink>
