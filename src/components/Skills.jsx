@@ -5,7 +5,7 @@ const Skills = () => {
     const skillsData = {
     technical: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Python', 'Git', 'VS Code'],
     soft: ['Attention to Detail', 'Problem Solving', 'Teamwork', 'Adaptability', 'Communication'],
-    learning: ['Node.js', 'Responsive Design', 'Web APIs', 'MySQL', 'Express.js']
+    learning: ['Node.js', 'Responsive Design', 'Web APIs', 'MySQL', 'Express.js'],
   }
 
   return (

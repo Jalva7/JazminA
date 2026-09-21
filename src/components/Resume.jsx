@@ -39,6 +39,17 @@ const Resume = () => {
     ],
     experience: [
       {
+        title: 'Tech Support Representative',
+        company: 'Commerce',
+        time: 'Sept 2026 - Present',
+        responsibilities: [
+          'Provide technical support and troubleshooting assistance to customers via phone, email, and chat',
+          'Diagnose and resolve software and network issues',
+          'Document customer interactions and solutions in the support ticketing system',
+          'Collaborate with team members to escalate complex issues to higher-level support or engineering teams'
+        ]
+      }, 
+      {
         title: 'Receiver',
         company: 'Makita',
         time: 'May 2025 - Aug 2025',

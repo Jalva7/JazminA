@@ -88,7 +88,7 @@ function App() {
 
      {/* Footer */}
       <footer className="footer" role="contentinfo">
-        <p>© 2025 Jazmin Alvarado</p>
+        <p>©2026 Jazmin Alvarado</p>
         <p>Built with React</p>
       </footer>
   </div>
